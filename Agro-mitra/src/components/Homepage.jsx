@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown, User, Zap, Leaf, BarChart2, Users } from 'lucide-react';
 import '../colors.css';
+import { Link } from 'react-router-dom';
 
 const AgroMitraLogo = () => (
   <div className="text-2xl font-bold text-primary">Agro-Mitra</div>
@@ -59,7 +60,7 @@ const NavBar = () => {
             <div className="hidden md:block ml-10">
               <div className="flex items-baseline space-x-4">
                 <NavLink href="#services">Services</NavLink>
-                <NavLink href="#about">About Us</NavLink>
+                <NavLink href="AboutUs">About Us</NavLink>
                 <NavLink href="#government-scheme">Government Scheme</NavLink>
                 <NavLink href="#testimonials">Testimonials</NavLink>
                 <NavLink href="#contact">Contact Us</NavLink>
@@ -110,7 +111,7 @@ const NavBar = () => {
               <NavLink href="#about">About Us</NavLink>
               <NavLink href="#government-scheme">Government Scheme</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#contact">Contact Us</NavLink>
+             <NavLink href="#contact">Contact Us</NavLink> 
             </div>
           </motion.div>
         )}
