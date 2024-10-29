@@ -1,6 +1,7 @@
 import React from "react";
 
-export default function AboutUs () {
+export default function AboutUs() {
+
 window.onscroll = function () {
   jet();
 };
