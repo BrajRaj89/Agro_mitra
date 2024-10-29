@@ -28,7 +28,7 @@ window.addEventListener("scroll", () => {
 });
 return (
   <div classNameName="App">
-    <nav>
+    <nav id="nav11">
       <div>
         <a href="mailto: agromitra@gmail.com">
           <img
@@ -91,8 +91,7 @@ return (
     <header id="head">
       <a href={{}}>
         <span>
-
-        
+               
 
         </span>
         <span id="c_name"></span>
@@ -206,7 +205,7 @@ return (
       </div>
 
       <div id="second" className="reveal">
-        <div className="container">
+        <div className="container" id="contain">
           <div>
             <h1>WE PROVIDE</h1>
             <h2>Crop Monitoring</h2>
@@ -226,7 +225,7 @@ return (
             alt=""
           />
         </div>
-        <div className="container">
+        <div className="container" id="contain">
           <div>
             <h1>WE HAVE</h1>
             <h2>AI Tools</h2>
@@ -245,7 +244,7 @@ return (
             alt=""
           />
         </div>
-        <div className="container">
+        <div className="container" id="contain">
           <div>
             <h1>OUR MISSION</h1>
             <h2>Improved Quality </h2>
@@ -262,7 +261,7 @@ return (
             alt=""
           />
         </div>
-        <div className="container">
+        <div className="container" id="contain">
           <div>
             <h1>OUR STRENGTHS</h1>
             <h2>Intelligent Use of Technology and Human Resource</h2>
@@ -353,22 +352,22 @@ return (
       style={{ display: "flex", "justify-content": "space-around" }}
       id="foote"
     >
-      <ul>
-        <li>
+      <ul id="list">
+        <li id = "lii">
           <a href={{}}>Home</a>
         </li>
-        <li>
+        <li id="lii">
           <a href={{}}>About Us</a>
         </li>
-        <li>
+        <li id="lii">
           <a href={{}}>Services</a>
         </li>
       </ul>
-      <ul>
-        <li>
+      <ul id="list">
+        <li id="lii">
           <a href={{}}>Training</a>
         </li>
-        <li>
+        <li id="lii">
           <a href={{}}>FAQs</a>
         </li>
       </ul>
